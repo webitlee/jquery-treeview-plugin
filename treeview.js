@@ -53,7 +53,7 @@ jQuery.fn.extend({
 		});
 
 		//Trgger the spread and fold event
-     $(document).on('click','.clickEle',function(){
+            $(document).on('click','.clickEle',function(){
 			url=options.url(elementMessage(this));
 			foldExpandEle(this);
 		});
